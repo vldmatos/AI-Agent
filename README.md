@@ -10,6 +10,8 @@ To use models hosted by GitHub Models, you will need to create a GitHub personal
 
 From the command line, configure your token for this project using .NET User Secrets by running the following commands:
 
+## Use Github Models
+
 ```sh
 cd <<your-project-directory>>
 dotnet user-secrets set GitHubModels:Token YOUR-TOKEN
